@@ -1,0 +1,126 @@
+
+
+
+
+EJERCICIO PRÁCTICO:
+El Reto: Imagina que te incorporas a un grupo empresarial con ~100 empleados. 
+La gestión de materiales (ordenadores, móviles, ropa, EPIS, coches, etc.) es un caos: 
+no hay control de qué tiene cada uno, cuándo se entregó, cuándo renovar, ni stock disponible. 
+¡Tu misión es crear orden!
+Tu Tarea: Desarrolla una herramienta sencilla que permita gestionar estos activos y materiales.
+
+
+1. Presentación con: 
+1.1. Análisis del problema
+1.2. Cómo se haría la solución con una app / Mi propuesta (frameworks usados, cosas que tengo, propuestas para un futuro...)
+1.3. Solución con herramientas ya hechas
+2. Enseñar demo
+3. Documentación
+
+
+Tecnologías usadas:
+1. React 19
+2. TypeScript
+3. Vite
+4. Tailwind CSS
+5. Supabase
+6. Lucide React para iconografía
+
+
+Enfoque del proyecto:
+1. Diseño tipo SaaS
+2. Interfaz responsive
+3. Control por roles y permisos
+4. Demo local + modo conectado con Supabase
+5. Estructura modular por áreas de negocio
+
+
+Cosas que ya tengo en la demo:
+1. Inicio con KPIs, accesos rápidos y widgets configurables
+2. Kanban / Dashboard de tareas
+3. Inventario de activos
+4. Detalle de activo
+5. Asignaciones y devoluciones
+6. Gestión de empleados
+7. Stock
+8. Mantenimiento
+9. Renovaciones
+10. Alertas operativas
+11. Historial / auditoría de movimientos
+12. Búsqueda avanzada con filtros
+13. Exportaciones a CSV, Excel compatible y PDF
+14. Roles y permisos por perfil
+15. Inicio de sesión y control de acceso
+16. Integración con Supabase para persistencia
+17. Trazabilidad de cambios
+
+
+Qué añadir más tarde:
+1. Sistema de tickets
+2. Gestión documental
+3. Firma digital
+4. QR
+5. Código de barras
+6. Inventario móvil
+7. OCR de facturas
+8. OCR de albaranes
+9. IA para predicción de renovaciones
+10. Automatizaciones
+11. Correos electrónicos por incidencias importantes
+12. Notificaciones push
+13. Dashboard más analítico para dirección
+
+
+Guion recomendado para la presentación:
+
+1. Análisis del problema
+1.1. La empresa tiene muchos activos y materiales repartidos entre empleados y ubicaciones.
+1.2. No hay trazabilidad clara de quién tiene cada recurso ni cuándo se entregó o devolvió.
+1.3. Tampoco hay control cómodo de stock, mantenimientos, renovaciones o alertas.
+1.4. Esto genera pérdidas de tiempo, errores, compras innecesarias y poca visibilidad para dirección.
+
+2. Mi propuesta: desarrollar una app propia
+2.1. Objetivo: centralizar en una sola plataforma el inventario, las asignaciones, los empleados, el stock y la trazabilidad.
+2.2. Tecnologías: React, TypeScript, Vite, Tailwind CSS y Supabase.
+2.3. Arquitectura: interfaz moderna tipo SaaS, modular, responsive y preparada para crecer.
+2.4. Valor principal: saber qué tiene cada empleado, qué está disponible, qué falta renovar y qué incidencias existen.
+2.5. Diferencial: control por roles, historial de acciones, exportaciones y panel visual para operativa diaria.
+
+3. Qué ya resuelve la aplicación
+3.1. Inicio con visión general y KPIs.
+3.2. Dashboard Kanban para tareas.
+3.3. Gestión de inventario y detalle de activos.
+3.4. Gestión de empleados.
+3.5. Asignaciones y devoluciones.
+3.6. Stock, mantenimiento, renovaciones y alertas.
+3.7. Historial, búsqueda avanzada y exportaciones.
+
+4. Qué se podría añadir en el futuro
+4.1. Tickets.
+4.2. Documentación y firma digital.
+4.3. QR y códigos de barras.
+4.4. Inventario desde móvil.
+4.5. OCR.
+4.6. IA y automatizaciones.
+
+5. Solución con herramientas ya hechas
+5.1. Alternativas: Excel, Google Sheets, Airtable, Notion, GLPI, Odoo.
+5.2. Ventaja de esas herramientas: implantación rápida y menor desarrollo inicial.
+5.3. Problema: suelen ser menos personalizadas, menos visuales para este caso y más limitadas en flujos concretos.
+5.4. Mi propuesta aporta una solución adaptada al problema real y preparada para ampliarse.
+
+6. Demo
+6.1. Enseñar login.
+6.2. Enseñar inicio.
+6.3. Enseñar Kanban.
+6.4. Enseñar inventario y detalle de activo.
+6.5. Enseñar empleados y asignaciones.
+6.6. Enseñar alertas, historial y exportaciones.
+
+7. Documentación
+7.1. Objetivo del proyecto.
+7.2. Tecnologías usadas.
+7.3. Estructura funcional por módulos.
+7.4. Roles y permisos.
+7.5. Base de datos y trazabilidad.
+7.6. Futuras mejoras.
