@@ -2,6 +2,10 @@
 
 Aplicación web SaaS para la gestión de activos empresariales orientada a organizaciones de unas 100 personas. El proyecto está preparado para crecer sobre React, TypeScript, Tailwind y Supabase, con una arquitectura modular y un diseño moderno de producto B2B.
 
+## Documentación completa
+
+La documentación funcional y técnica del proyecto está disponible en `DOCUMENTACION.md`.
+
 ## Stack
 
 - React 19
@@ -39,6 +43,24 @@ Aplicación web SaaS para la gestión de activos empresariales orientada a organ
 ```bash
 npm install
 npm run dev
+```
+
+## Despliegue en GitHub Pages
+
+El repositorio ya incluye workflow de despliegue automático en [deploy-pages.yml](.github/workflows/deploy-pages.yml).
+
+1. Sube tus cambios a la rama `main`.
+2. En GitHub entra en `Settings > Pages` y confirma que el origen es `GitHub Actions`.
+3. Espera a que termine el workflow `Deploy to GitHub Pages` en la pestaña `Actions`.
+
+URL esperada de publicación:
+
+- https://miguelangelhidalgo03.github.io/HA-Connect/
+
+Build local equivalente para Pages:
+
+```bash
+npm run build:github
 ```
 
 Para conectar Supabase, copia `.env.example` a `.env` y completa:
